@@ -1,4 +1,4 @@
-FROM python:3.9.5
+FROM python:3.10.12
 
 # Setting the working directory in the container
 WORKDIR /app
@@ -14,4 +14,4 @@ COPY  . /app/
 
 #The command that run Python script
 
-CMD ["pyrhton", "your_script.py"]
+CMD ["python", "your_script.py"]
