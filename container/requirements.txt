@@ -1,3 +1,4 @@
 pandas
 sqlalchemy
 pytest
+faker
