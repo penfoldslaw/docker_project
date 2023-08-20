@@ -37,7 +37,7 @@ while True:
     for _ in range(num_records):
         name = fake.name()
         email = fake.email()
-        age = fake.random_int(min=18, max=80)
+        age = fake.random_int(min=18, max=80)   
         dummy_data.append((name, email, age))
 
     # Create a pandas DataFrame from the dummy data
