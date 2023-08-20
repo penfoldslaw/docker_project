@@ -12,6 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copycing the rest of the application into the container
 COPY  . /app/
 
+EXPOSE 5000
+
 #The command that run Python script
 
 CMD ["python", "your_script.py"]
