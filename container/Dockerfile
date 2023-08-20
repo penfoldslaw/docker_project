@@ -16,4 +16,4 @@ EXPOSE 5000
 
 #The command that run Python script
 
-CMD ["python", "your_script.py"]
+CMD ["python", "dummydata.py"]
